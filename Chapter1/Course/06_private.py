@@ -28,6 +28,7 @@ class Phone:
     def __str__(self):
         return f"serial_number = {self.serial_number}, producer = {self.producer}, current_voltage = {self.__current_voltage}"
 
+
 phone = Phone(101, "Apple", 1)
 phone.call_by_5g()
 
