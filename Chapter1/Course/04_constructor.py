@@ -1,7 +1,7 @@
 class Student:
+    tel = None
     name = None
     age = None
-    tel = None
 
     """
     1.La méthode __init__ est automatiquement exécutée 
@@ -17,6 +17,7 @@ class Student:
 
     def say_hi(self):
         print(f"Bonjour je m'appelle {self.name} et j'ai {self.age} ans.")
+
 
 stu = Student("Laurent", 15, "0123456789")
 stu.say_hi()

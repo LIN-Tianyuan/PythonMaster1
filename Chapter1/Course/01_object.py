@@ -1,6 +1,7 @@
 class Student:
     name = None # Enregistrer le nom de l'élève
 
+
 # Création d'objets basés sur des classes
 stu_1 = Student()
 stu_2 = Student()

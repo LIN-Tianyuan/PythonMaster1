@@ -5,6 +5,7 @@ class Student:
     def say_hi(self):
         print(f"Bonjour à tous, je m'appelle {self.name} et j'ai {self.age} ans.")
 
+
 stu = Student()
 stu.name = 'Alex'
 stu.age = 18

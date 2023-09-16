@@ -29,19 +29,23 @@ class Phone:
         return f"serial_number = {self.serial_number}, producer = {self.producer}, current_voltage = {self.__current_voltage}"
 
 
-phone = Phone(101, "Apple", 1)
-phone.call_by_5g()
+# phone = Phone(101, "Apple", 1)
+# print(phone)
+# phone.call_by_5g()
 
 
-"""
+
 phone = Phone(101, "Apple", 50)
 print(phone)
+
 print("serial_number = " + str(phone.serial_number))
 print("producer = " + phone.producer)
 phone.__current_voltage = 40
 phone.serial_number = 100
 print("current voltage = " + str(phone.__current_voltage))
 print(phone)
+
+"""
 phone.call_by_5g()
 # phone.__keep_single_core()
 """

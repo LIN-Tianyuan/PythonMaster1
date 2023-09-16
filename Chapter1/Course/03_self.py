@@ -8,6 +8,7 @@ class Student:
     def say_hi2(self, msg):
         print(f"Bonjour à tous, {msg}")
 
+
 stu = Student()
 stu.name = 'Maxime'
 stu.age = 12
