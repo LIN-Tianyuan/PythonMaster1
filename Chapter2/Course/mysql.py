@@ -9,6 +9,10 @@ conn = Connection(
 )
 
 # Informations sur le logiciel d'impression de la base de données MySQL
-print(conn.get_server_info())
+# print(conn.get_server_info())
+# Obtention de l'objet curseur
+cursor = conn.cursor()
+print(cursor.fetchall())
+
 # Fermer la connexion à la base de données
 conn.close()
