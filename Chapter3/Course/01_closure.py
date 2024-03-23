@@ -32,3 +32,7 @@ def account_create(initial_amount = 0):
 
 fn = account_create()
 fn(300)
+fn(300)
+
+fn1 = account_create()
+fn1(700)
